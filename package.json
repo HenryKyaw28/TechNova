@@ -1,0 +1,10 @@
+{
+  "name": "Project3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "HenryKyaw <HenryKyaw28>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

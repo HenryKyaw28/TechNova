@@ -1,0 +1,43 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiler/build artifacts
+*.pyc
+*.class
+*.so
+*.o
+*.dll
+*.a
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.autosave
+
+# Log files
+*.log
+
+# Cache files
+*.cache
+*.cache/
+
+# Test results
+*.test
+*.testresults
+coverage.py
+
+# Secrets and credentials
+secrets.yml
+config.env
+api_key.txt
+password.txt
+
+# Local development files
+*.local
+*.dev
+
+# Database dumps
+*.sql
