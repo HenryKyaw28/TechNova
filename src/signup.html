@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechNova</title>
+    <link rel="stylesheet" href="output.css">
+  </head>
+  <body class="bg-primary font-openSans">
+    <!-- this is parent  -->
+    <div class="flex flex-col justify-around h-screen">
+      <!-- this is logo and title  -->
+      <div
+        class=" space-y-2 -mt-1  text-tertiary"
+      >
+      <a class="flex justify-center items-center flex-col space-y-2" href="index.html">
+          <svg
+            class="size-16 fill-tertiary"
+            xmlns="http://www.w3.org/2000/svg"
+            id="Layer_1"
+            data-name="Layer 1"
+            viewBox="0 0 24 24"
+            width="512"
+            height="512"
+          >
+            <path
+              d="M7,17h10V7H7v10Zm3-7h4v4h-4v-4Zm14-2v-3h-2.05c-.22-1.53-1.42-2.73-2.95-2.95V0h-3V2h-2.5V0h-3V2h-2.5V0h-3V2.05c-1.53,.22-2.73,1.42-2.95,2.95H0v3H2v2.5H0v3H2v2.5H0v3H2c0,1.66,1.34,3,3,3v2h3v-2h2.5v2h3v-2h2.5v2h3v-2c1.66,0,3-1.34,3-3h2v-3h-2v-2.5h2v-3h-2v-2.5h2Zm-5,11H5V5.5c0-.28,.22-.5,.5-.5h13c.28,0,.5,.22,.5,.5v13.5Z"
+            />
+          </svg>
+          <p class="text-4xl font-extrabold">TechNova</p>
+
+      </a>
+      </div>
+      <!-- this is input field  -->
+      <div class="flex flex-col px-10 space-y-3">
+        <input
+          class="py-2 rounded-lg px-4 font-semibold"
+          type="text"
+          name="userName"
+          id="userName"
+          placeholder="Fullname"
+        />
+        <input
+          class="py-2 rounded-lg px-4 font-semibold"
+          type="text"
+          name="password"
+          id="password"
+          placeholder="username"
+        />
+        <input
+          class="py-2 rounded-lg px-4 font-semibold"
+          type="email"
+          name="password"
+          id="password"
+          placeholder="email"
+        />
+        <input
+          class="py-2 rounded-lg px-4 font-semibold"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+      <!-- this is submit button and his sub p  -->
+      <div class="flex flex-col justify-center px-10 mb-16 space-y-2">
+        <button
+          class="rounded-lg bg-white text-primary py-2 font-bold"
+          type="submit"
+        >
+          Sign up
+        </button>
+        <div class="flex justify-center text-xs">
+          <p>
+            Already have an account?
+            <a href="signin.html"><u>Log in here</u></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

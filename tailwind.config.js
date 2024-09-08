@@ -10,7 +10,10 @@ module.exports = {
         'primary': '#007bff ', 
         'secondary': '#6c757d ', 
         'tertiary': '#f8f9fa ',
-        'accent': '#ff5722 ',
+        'accent': {
+          'orange': '#ff5722 ',
+          'blue': '#fbeb7c',
+        },
       }, 
       fontFamily: {
         openSans: ['Open Sans'], 

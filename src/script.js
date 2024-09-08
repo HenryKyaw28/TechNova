@@ -22,3 +22,17 @@ function showRandomText() {
 
 // Show a random text every 1 second (1000 milliseconds)
 setInterval(showRandomText, 1500);
+
+//Log In Button
+const logInButton = document.getElementById("logInButton");
+
+logInButton.onclick = function() {
+    window.location.href = "http://127.0.0.1:5500/src/signin.html";
+};
+
+//Sign Up Button
+const signUpButton = document.getElementById("signUpButton");
+
+signUpButton.onclick = function() {
+    window.location.href = "http://127.0.0.1:5500/src/signup.html";
+};
