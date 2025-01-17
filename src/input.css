@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .box {
+        @apply w-[100px] h-[100px] bg-zinc-300 rounded-xl
+    }
+    .item-p {
+        @apply text-start pl-2
+    }
+}

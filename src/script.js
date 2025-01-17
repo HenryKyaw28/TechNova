@@ -21,7 +21,7 @@ function showRandomText() {
 }
 
 // Show a random text every 1 second (1000 milliseconds)
-setInterval(showRandomText, 1500);
+setInterval(showRandomText, 1000);
 
 //Log In Button
 const logInButton = document.getElementById("logInButton");

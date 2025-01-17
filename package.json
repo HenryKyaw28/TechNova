@@ -6,5 +6,8 @@
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4"
   }
 }

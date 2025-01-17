@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="font-openSans">
+    <!-- parent div  -->
+    <div class="h-screen px-3 space-y-3">
+      <!-- navbar -->
+      <nav class="flex justify-between items-center pt-2">
+        <!-- right side  -->
+        <box-icon name="menu"></box-icon>
+        <!-- left side  -->
+        <div class="space-x-2">
+          <box-icon name="bell"></box-icon>
+          <box-icon name="user"></box-icon>
+        </div>
+      </nav>
+      <!-- username and subparagraph -->
+      <section>
+        <p class="text-2xl text-primary">
+          Hello, Henry <span class="">👋</span>
+        </p>
+        <p class="text-xs">What's on your mind today?</p>
+      </section>
+      <!-- search bar  -->
+      <section
+        class="flex justify-between items-center py-3 px-3 border-2 border-primary rounded-xl"
+      >
+        <div class="flex space-x-2">
+          <box-icon class="fill-primary" name="search"></box-icon>
+          <input
+            class=""
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search items here"
+          />
+        </div>
+        <div class="flex space-x-2 items-center">
+          <box-icon class="fill-primary" name="microphone"></box-icon>
+          <box-icon class="fill-primary" name="filter"></box-icon>
+        </div>
+      </section>
+      <!-- items list  -->
+      <section>
+        <div class="flex justify-center space-x-5 text-slate-700">
+          <button
+            class="focus:border-b-2 focus:border-b-primary focus:text-primary"
+          >
+            Personal
+          </button>
+          <button
+            class="focus:border-b-2 focus:border-b-primary focus:text-primary"
+          >
+            House
+          </button>
+          <button
+            class="focus:border-b-2 focus:border-b-primary focus:text-primary"
+          >
+            Smart
+          </button>
+          <button
+            class="focus:border-b-2 focus:border-b-primary focus:text-primary"
+          >
+            Entertainment
+          </button>
+        </div>
+      </section>
+      <section class="flex space-x-2 overflow-x-auto py-5">
+        <div class="item">
+          <div class="box"></div>
+          <div class="item-p">
+            <p class="text-sm">Heading</p>
+            <p class="text-[10px]">Tag</p>
+            <p class="text-[10px]">Price</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box"></div>
+          <div class="item-p">
+            <p class="text-sm">Heading</p>
+            <p class="text-[10px]">Tag</p>
+            <p class="text-[10px]">Price</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box"></div>
+          <div class="item-p">
+            <p class="text-sm">Heading</p>
+            <p class="text-[10px]">Tag</p>
+            <p class="text-[10px]">Price</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box"></div>
+          <div class="item-p">
+            <p class="text-sm">Heading</p>
+            <p class="text-[10px]">Tag</p>
+            <p class="text-[10px]">Price</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box"></div>
+          <div class="item-p">
+            <p class="text-sm">Heading</p>
+            <p class="text-[10px]">Tag</p>
+            <p class="text-[10px]">Price</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box"></div>
+          <div class="item-p">
+            <p class="text-sm">Heading</p>
+            <p class="text-[10px]">Tag</p>
+            <p class="text-[10px]">Price</p>
+          </div>
+        </div>
+      </section>
+      <!-- tdy suggestion-->
+      <p class="text-forText text-2xl">Today suggestion!</p>
+      <section class="grid grid-cols-2 gap-2 font-openSans">
+        <!--Card1-->
+        <div class="p-3 w-[200px] space-y-3 border rounded-xl shadow-md">
+          <img class="w-[150px]" src="https://ict.com.mm/cdn/shop/files/AppleiPhone15eSim128GB_Yellow_ZPA_1_8_e24f2b0e-c8c1-4945-ba31-3d87bfd7347f_1.png?v=1731380156&width=600" alt="iPhone16Plus">
+          <div class="text-xs">
+            <div>
+              <p class="font-bold">Apple iPhone</p>
+              <p>16 Plus eSim 128GB Black</p>
+            </div>
+            <p class="text-[8px] text-secondary"><a href="">click here for more information!</a></p>
+          </div>
+          <div class="flex justify-end">
+            <button class="bg-primary px-2 py-2 rounded-xl text-xs font-semibold" type="submit">Add to cart</button>
+          </div>
+        </div>
+        <!--Card2-->
+        <div class="p-3 w-[200px] space-y-3 border rounded-xl shadow-md">
+          <img class="w-[150px]" src="https://ict.com.mm/cdn/shop/files/AppleiPhone15eSim128GB_Yellow_ZPA_1_8_e24f2b0e-c8c1-4945-ba31-3d87bfd7347f_1.png?v=1731380156&width=600" alt="iPhone16Plus">
+          <div class="text-xs">
+            <div>
+              <p class="font-bold">Apple iPhone</p>
+              <p>16 Plus eSim 128GB Black</p>
+            </div>
+            <p class="text-[8px] text-secondary"><a href="">click here for more information!</a></p>
+          </div>
+          <div class="flex justify-end">
+            <button class="bg-primary px-2 py-2 rounded-xl text-xs font-semibold" type="submit">Add to cart</button>
+          </div>
+        </div>
+        <!--Card3-->
+        <div class="p-3 w-[200px] space-y-3 border rounded-xl shadow-md">
+          <img class="w-[150px]" src="https://ict.com.mm/cdn/shop/files/AppleiPhone15eSim128GB_Yellow_ZPA_1_8_e24f2b0e-c8c1-4945-ba31-3d87bfd7347f_1.png?v=1731380156&width=600" alt="iPhone16Plus">
+          <div class="text-xs">
+            <div>
+              <p class="font-bold">Apple iPhone</p>
+              <p>16 Plus eSim 128GB Black</p>
+            </div>
+            <p class="text-[8px] text-secondary"><a href="">click here for more information!</a></p>
+          </div>
+          <div class="flex justify-end">
+            <button class="bg-primary px-2 py-2 rounded-xl text-xs font-semibold" type="submit">Add to cart</button>
+          </div>
+        </div>
+        <!--Card4-->
+        <div class="p-3 w-[200px] space-y-3 border rounded-xl shadow-md">
+          <img class="w-[150px]" src="https://ict.com.mm/cdn/shop/files/AppleiPhone15eSim128GB_Yellow_ZPA_1_8_e24f2b0e-c8c1-4945-ba31-3d87bfd7347f_1.png?v=1731380156&width=600" alt="iPhone16Plus">
+          <div class="text-xs">
+            <div>
+              <p class="font-bold">Apple iPhone</p>
+              <p>16 Plus eSim 128GB Black</p>
+            </div>
+            <p class="text-[8px] text-secondary"><a href="">click here for more information!</a></p>
+          </div>
+          <div class="flex justify-end">
+            <button class="bg-primary px-2 py-2 rounded-xl text-xs font-semibold" type="submit">Add to cart</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- javascript  -->
+    <script src="./js/mainPage.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>

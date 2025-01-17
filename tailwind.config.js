@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{html,js}",
-    "./index.html"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -12,7 +10,7 @@ module.exports = {
         'tertiary': '#f8f9fa ',
         'accent': {
           'orange': '#ff5722 ',
-          'blue': '#fbeb7c',
+          'yellow': '#fbeb7c',
         },
       }, 
       fontFamily: {
